@@ -1,7 +1,8 @@
 # Installation
 
 
-1. resources 에 secrets.yml 파일 추가 필요 
+1. 로컬 환경에서 실행시 resources 에 secrets.yml 파일 추가 필요(카카오톡 공유)
+   <br>logback-spring.xml 의 11-12 라인 확인후 local-path 로 변경필요
 
 
 2. 서버에서 실행시 
@@ -12,7 +13,8 @@ gradle bootRun --args='--spring.profiles.active=dev'
 java -jar your-application.jar --spring.profiles.active=dev 
 으로 실행
 ```
-3인스턴스에 logstash 설치후 
+
+3. 인스턴스에 logstash 설치후 
 logstash.conf 확인 필요
 sudo vi /etc/logstash/conf.d/logstash.conf
 
