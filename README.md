@@ -1,22 +1,42 @@
-#프로젝트 소개
+# 프로젝트 소개
+
+BottleTalk는 위스키에 대한 정보를 제공하고, 위스키에 대한 생각을 나눌 수 있는 사용자들의 피드 공간을 제공하는 서비스입니다. 2030 세대를 타겟으로 혼술, 홈술, 하이볼 등을 즐기는 이들을 위한 커뮤니티를 지향하며,**마이크로서비스 아키텍처(MSA)** 기반으로 설계되어 확장성과 유연성을 확보했습니다.
 
 
-BottleTalk는 위스키에 대한 정보를 제공하고, 위스키에 대한 생각을 나눌 수 있는 사용자들의 피드 공간을 제공하는 서비스입니다. 2030 세대를 타겟으로 혼술, 홈술, 하이볼 등을 즐기는 이들을 위한 커뮤니티를 지향합니다.
-
-#주요 기능
+# 주요 기능
 
 사용자 맞춤 인기 검색어와 상품 추천 기능
-
 비 로그인 사용자에게는 공통적인 추천 인기 검색어와 인기 상품 정보를 제공합니다.
 로그인한 사용자의 성별과 생년에 따라, 맞춤형 인기 검색어와 인기 상품 정보가 제공됩니다.
-크롤링 진행상황 공유를 위한 Slack Notification
 
-크롤링 시작, 진행 중, 완료 등 진행 상황을 쉽게 알 수 있도록 Slack 알림이 구현되어 있습니다.
-ElastiCache를 사용한 사용자 정보 캐싱
+크롤링 진행상황 공유를 위한 Slack Notification크롤링 시작, 진행 중, 완료 등 진행 상황을 쉽게 알 수 있도록 Slack 알림이 구현되어 있습니다.
+ElastiCache를 사용한 사용자 정보 캐싱로그인한 사용자의 성별 및 생년을 캐싱하여 사용자 활동 로그에 추가됩니다.
 
-로그인한 사용자의 성별 및 생년을 캐싱하여 사용자 활동 로그에 추가됩니다.
+# 기술 스택
+<img width="1067" alt="image" src="https://github.com/user-attachments/assets/34c52ace-0d63-4955-b765-df3cff1a497a">
+
+# 시스템 아키텍처
+<img width="1080" alt="image" src="https://github.com/user-attachments/assets/c883c87e-f7f0-45cd-ad56-e01707a906e5">
+
+# 데이터 ETL 파이프라인
+<img width="753" alt="image" src="https://github.com/user-attachments/assets/3baa27b2-fb24-4e7a-b80f-26b2d2837d28">
+
+# 데이터 크롤링 아키텍처
+<img width="563" alt="image" src="https://github.com/user-attachments/assets/cc2563fc-7eff-4cb9-9107-e8b7df10b03d">
 
 
+
+
+# 담당 업무
+- **Java High Level REST Client**를 활용한 **ElasticSearch** 연결 및 **ProductAPI** 개발,
+- **AWS Cognito**와 **Google Cloud API**를 활용한 **로그인과 회원가입** 구현,
+- **Docker**를 활용한 공용 ElasticSearch와 Kibana 인스턴스 구현및 배포,
+- **Jasypt**를 활용한 환경변수 암호화
+- **AWS Amplify**를 사용한 로그인 구성 AWS Cognito 사용 **간소화**
+- 서비스별 **Logstash Agent** 구성
+- **Github Actions** 를 이용한 **yml** 파일 자동 생성
+
+  
 # Installation
 
 
