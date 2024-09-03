@@ -24,8 +24,8 @@ ElastiCache를 사용한 사용자 정보 캐싱로그인한 사용자의 성별
 # 데이터 크롤링 아키텍처
 <img width="563" alt="image" src="https://github.com/user-attachments/assets/cc2563fc-7eff-4cb9-9107-e8b7df10b03d">
 
-
-
+# WBS
+<img width="483" alt="image" src="https://github.com/user-attachments/assets/f7b2f888-cebf-4fba-b9c8-10022a664367">
 
 # 담당 업무
 - **Java High Level REST Client**를 활용한 **ElasticSearch** 연결 및 **ProductAPI** 개발,
