@@ -12,6 +12,18 @@ BottleTalk는 위스키에 대한 정보를 제공하고, 위스키에 대한 �
 크롤링 진행상황 공유를 위한 Slack Notification크롤링 시작, 진행 중, 완료 등 진행 상황을 쉽게 알 수 있도록 Slack 알림이 구현되어 있습니다.
 ElastiCache를 사용한 사용자 정보 캐싱로그인한 사용자의 성별 및 생년을 캐싱하여 사용자 활동 로그에 추가됩니다.
 
+# 담당 업무
+- **Java High Level REST Client**를 활용한 **ElasticSearch** 연결 및 **ProductAPI** 개발,
+- **AWS Cognito**와 **Google Cloud API**를 활용한 **로그인과 회원가입** 구현,
+- **Docker**를 활용한 공용 ElasticSearch와 Kibana 인스턴스 구현및 배포,
+- **Jasypt**를 활용한 환경변수 암호화
+- **AWS Amplify**를 사용한 로그인 구성 AWS Cognito 사용 **간소화**
+- 서비스별 **Logstash Agent** 구성
+- **Github Actions** 를 이용한 **yml** 파일 자동 생성
+
+# 스크린샷
+<img width="475" alt="image" src="https://github.com/user-attachments/assets/8c07867c-8c8b-447d-9ac9-d801827d1264">
+
 # 기술 스택
 <img width="1067" alt="image" src="https://github.com/user-attachments/assets/34c52ace-0d63-4955-b765-df3cff1a497a">
 
@@ -28,14 +40,7 @@ ElastiCache를 사용한 사용자 정보 캐싱로그인한 사용자의 성별
 <img width="483" alt="image" src="https://github.com/user-attachments/assets/f7b2f888-cebf-4fba-b9c8-10022a664367">
 <br>효율적 의사소통과 지속적인 개선을 위해 노션의 칸반보드를 활용하여 테스크단위로 업무를 진행 (해야할일, 진행중, 완료 단계로 구분)
 
-# 담당 업무
-- **Java High Level REST Client**를 활용한 **ElasticSearch** 연결 및 **ProductAPI** 개발,
-- **AWS Cognito**와 **Google Cloud API**를 활용한 **로그인과 회원가입** 구현,
-- **Docker**를 활용한 공용 ElasticSearch와 Kibana 인스턴스 구현및 배포,
-- **Jasypt**를 활용한 환경변수 암호화
-- **AWS Amplify**를 사용한 로그인 구성 AWS Cognito 사용 **간소화**
-- 서비스별 **Logstash Agent** 구성
-- **Github Actions** 를 이용한 **yml** 파일 자동 생성
+
 
   
 # Installation
