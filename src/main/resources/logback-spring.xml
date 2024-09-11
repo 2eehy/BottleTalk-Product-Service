@@ -9,7 +9,7 @@
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
             <!-- 로그 파일 패턴 -->
             <!-- 테스트 시 ${local-path}, 배포시 ${cd-path} -->
-            <fileNamePattern>${cd-path}</fileNamePattern>
+            <fileNamePattern>${local-path}</fileNamePattern>
             <!-- 파일 최대 크기 -->
             <maxFileSize>100KB</maxFileSize>
             <!-- 최대 보관할 기간 -->

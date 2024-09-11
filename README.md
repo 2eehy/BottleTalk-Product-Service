@@ -24,6 +24,9 @@ ElastiCache를 사용한 사용자 정보 캐싱로그인한 사용자의 성별
 # 스크린샷
 <img width="475" alt="image" src="https://github.com/user-attachments/assets/8c07867c-8c8b-447d-9ac9-d801827d1264">
 
+# 시연영상
+[BottleTalk.mp4](..%2F..%2FDownloads%2FBottleTalk.mp4)
+
 # 기술 스택
 <img width="1067" alt="image" src="https://github.com/user-attachments/assets/34c52ace-0d63-4955-b765-df3cff1a497a">
 
