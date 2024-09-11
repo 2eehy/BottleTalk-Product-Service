@@ -48,6 +48,17 @@ https://github.com/user-attachments/assets/d306c17b-5386-4675-b74c-5fb799649903
 <br>효율적 의사소통과 지속적인 개선을 위해 노션의 칸반보드를 활용하여 테스크단위로 업무를 진행 (해야할일, 진행중, 완료 단계로 구분)
 
 
+# API 명세서
+
+   | 메서드 | URL                               | 설명             |
+   |-----|-----------------------------------|----------------|
+   | GET | /v1/api/products                  | 전체 위스키정보를 조회   |
+   | GET | /v1/api/products/{id}             | 특정 위스키정보를 조회   |
+   | GET | /v1/api/products?search={keyword} | 키워드로 위스키목록을 조회 |
+   | GET | /v1/api/products/top5Keywords     | 인기검색어 TOP5 조회  |
+   | GET | /v1/api/products/top5Products     | 인기삼풍 TOP5 조회   |
+
+
 
   
 # Installation
@@ -104,19 +115,4 @@ output {
 }
 
 ```
-
-
-5. api test
-
-   | 메서드 | URL                               | 설명             |
-   |-----|-----------------------------------|----------------|
-   | GET | /v1/api/products                  | 전체 위스키정보를 조회   |
-   | GET | /v1/api/products/{id}             | 특정 위스키정보를 조회   |
-   | GET | /v1/api/products?search={keyword} | 키워드로 위스키목록을 조회 |
-   | GET | /v1/api/products/top5Keywords     | 인기검색어 TOP5 조회  |
-   | GET | /v1/api/products/top5Products     | 인기삼풍 TOP5 조회   |
-
-
-
-
 
