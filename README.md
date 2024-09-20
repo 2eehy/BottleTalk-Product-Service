@@ -44,6 +44,7 @@ https://github.com/user-attachments/assets/d306c17b-5386-4675-b74c-5fb799649903
 <img width="563" alt="image" src="https://github.com/user-attachments/assets/cc2563fc-7eff-4cb9-9107-e8b7df10b03d">
 
 # WBS
+<p>개발기간 : 24.06.25 ~ 24.08.21</p>
 <img width="483" alt="image" src="https://github.com/user-attachments/assets/f7b2f888-cebf-4fba-b9c8-10022a664367">
 <br>효율적 의사소통과 지속적인 개선을 위해 노션의 칸반보드를 활용하여 테스크단위로 업무를 진행 (해야할일, 진행중, 완료 단계로 구분)
 
